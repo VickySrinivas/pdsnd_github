@@ -11,5 +11,5 @@ Make changes, commit and push to repository
 bikeshare.py and data files
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+Udacity
 
