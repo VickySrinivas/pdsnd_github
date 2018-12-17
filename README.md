@@ -5,7 +5,7 @@
 Git Practice
 
 ### Description
-Describe what your project is about and what it does
+Make changes, commit and push to repository
 
 ### Files used
 Include the files used
