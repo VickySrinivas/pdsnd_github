@@ -1,8 +1,8 @@
 ### Date created
-18/12/2018 is the date on which this project is created.
+19/12/2018 is the date on which this project is created.
 
 ### Project Title
-Git Practice
+Git Practice Test
 
 ### Description
 Make changes, commit and push to repository
