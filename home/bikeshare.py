@@ -35,7 +35,7 @@ def get_filters():
     while not (day=='monday' or day=='tuesday' or day=='wednesday' or day=='thursday' or day=='friday' or day=='saturday' or day=='sunday' or day=='all'):
         day=input('\nEnter the day or enter "all" if no filter is required:\n').lower()
 
-    print('-'*40)
+    print('-'*35)
     return city, month, day
 
 def load_data(city, month, day):
@@ -77,7 +77,7 @@ def time_stats(df):
     print('Most Frequent Start Hour:', popular_hour)
 
     print("\nThis took %s seconds." % (time.time() - start_time))
-    print('-'*40)
+    print('-'*35)
 
 
 def station_stats(df):
@@ -100,7 +100,7 @@ def station_stats(df):
 
 
     print("\nThis took %s seconds." % (time.time() - start_time))
-    print('-'*40)
+    print('-'*35)
 
 
 def trip_duration_stats(df):
@@ -123,7 +123,7 @@ def trip_duration_stats(df):
     print("The count of user types are: \n " + user_types)
 
     print("\nThis took %s seconds." % (time.time() - start_time))
-    print('-'*40)
+    print('-'*35)
 
 
 def user_stats(df):
@@ -143,7 +143,7 @@ def user_stats(df):
     print("The most common year of birth is: "+ common_year)
 
     print("\nThis took %s seconds." % (time.time() - start_time))
-    print('-'*40)
+    print('-'*35)
 
 
 def main():
