@@ -30,7 +30,7 @@ def get_filters():
     while not (month=='january' or month=='february' or month=='march' or month=='april' or month=='may' or month=='june' or month=='all'):
         month=input('\nEnter the name of the month or enter "all" if no filter is required:\n').lower()
 
-    # TO DO: get user input for day of week (all, monday, tuesday, ... sunday)
+    # TO DO: get user input for day of week (all, monday, tuesday, wednesday, thursday, friday, saturday,  sunday)
     day=input('\nEnter the day or enter "all" if no filter is required:\n').lower()
     while not (day=='monday' or day=='tuesday' or day=='wednesday' or day=='thursday' or day=='friday' or day=='saturday' or day=='sunday' or day=='all'):
         day=input('\nEnter the day or enter "all" if no filter is required:\n').lower()
