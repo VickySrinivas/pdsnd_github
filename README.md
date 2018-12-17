@@ -2,7 +2,7 @@
 18/12/2018 is the date on which this project is created.
 
 ### Project Title
-Replace the Project Title
+Git Practice
 
 ### Description
 Describe what your project is about and what it does
